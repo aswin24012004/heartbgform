@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Heart Trail Animation</title>
+    <link rel="stylesheet" href="styles\heartstyle.css" />
+  </head>
+  <body>
+
+<center>
+	<h1>Student Form</h1>
+<table border="1">
+    <tr>
+        <td id="name">Name</td>
+        <td><input type="text" id="nameInput" placeholder="Enter your name"></td>
+    </tr>
+    <tr>
+        <td id="age">Age</td>
+        <td><input type="number" id="ageInput" placeholder="Enter your age"></td>
+    </tr>
+    <tr>
+        <td id="gen">Gender</td> 
+        <td>
+            <input type="radio" name="Gender" id="male" value="Male"> Male
+            <input type="radio" name="Gender" id="female" value="Female"> Female
+        </td>
+    </tr>
+    <tr>
+        <td id="course">Course</td>
+        <td>
+            <select id="courseInput">
+                <option value="JavaScript">JavaScript</option>
+                <option value="HTML">HTML</option>
+                <option value="CSS">CSS</option>
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td id="email">Email</td>
+        <td><input type="email" id="emailInput" placeholder="Enter your email"></td>
+    </tr>
+    <tr>
+        <td colspan="2"><button  id="total" onclick="add()">Save</button></td>
+    </tr>
+</table>
+
+<br>
+
+<table border="1" id="gh">
+    <tr>
+        <th>Name</th>
+        <th>Age</th>
+        <th>Gender</th>
+        <th>Course</th>
+        <th>Email</th>
+    </tr>
+</table>
+</center>
+    <script src="JS\script.js"></script>
+  </body>
+</html>
